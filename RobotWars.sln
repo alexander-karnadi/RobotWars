@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotWars", "RobotWars\RobotWars.csproj", "{8506CF73-2C2C-4E57-AD6A-295C372CA5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotWars.Test", "RobotWars.Test\RobotWars.Test.csproj", "{2912D9A6-E2A5-46B6-915D-8A75202646E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotWars.Gui", "RobotWars.Gui\RobotWars.Gui.csproj", "{E13FB1B6-1C6C-4CA5-950B-006FE66FC4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotWars.Console", "RobotWars.Console\RobotWars.Console.csproj", "{B37282AD-78BB-48DE-91E5-337483E08C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotWars.Console.Test", "RobotWars.Console.Test\RobotWars.Console.Test.csproj", "{377308A1-782E-4FC5-8227-6531E8D34266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{322EDF61-7B3E-403C-89ED-6F73A8AF9701}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1F6299DF-D0FC-495A-96F1-F573178EC395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{36256E8F-CEE6-4088-A48A-879E0E608B5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gui", "Gui", "{C74826A4-AA7E-422B-B37C-A24FD3BB92D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8506CF73-2C2C-4E57-AD6A-295C372CA5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8506CF73-2C2C-4E57-AD6A-295C372CA5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8506CF73-2C2C-4E57-AD6A-295C372CA5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8506CF73-2C2C-4E57-AD6A-295C372CA5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2912D9A6-E2A5-46B6-915D-8A75202646E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2912D9A6-E2A5-46B6-915D-8A75202646E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2912D9A6-E2A5-46B6-915D-8A75202646E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2912D9A6-E2A5-46B6-915D-8A75202646E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13FB1B6-1C6C-4CA5-950B-006FE66FC4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13FB1B6-1C6C-4CA5-950B-006FE66FC4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13FB1B6-1C6C-4CA5-950B-006FE66FC4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13FB1B6-1C6C-4CA5-950B-006FE66FC4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37282AD-78BB-48DE-91E5-337483E08C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37282AD-78BB-48DE-91E5-337483E08C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37282AD-78BB-48DE-91E5-337483E08C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37282AD-78BB-48DE-91E5-337483E08C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377308A1-782E-4FC5-8227-6531E8D34266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377308A1-782E-4FC5-8227-6531E8D34266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377308A1-782E-4FC5-8227-6531E8D34266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377308A1-782E-4FC5-8227-6531E8D34266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8506CF73-2C2C-4E57-AD6A-295C372CA5FD} = {1F6299DF-D0FC-495A-96F1-F573178EC395}
+		{2912D9A6-E2A5-46B6-915D-8A75202646E4} = {1F6299DF-D0FC-495A-96F1-F573178EC395}
+		{E13FB1B6-1C6C-4CA5-950B-006FE66FC4F8} = {C74826A4-AA7E-422B-B37C-A24FD3BB92D7}
+		{B37282AD-78BB-48DE-91E5-337483E08C06} = {36256E8F-CEE6-4088-A48A-879E0E608B5E}
+		{377308A1-782E-4FC5-8227-6531E8D34266} = {36256E8F-CEE6-4088-A48A-879E0E608B5E}
+	EndGlobalSection
+EndGlobal
