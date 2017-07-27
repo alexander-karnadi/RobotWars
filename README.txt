@@ -46,7 +46,7 @@ Expected output:
 5 1 E
 
 
-Description
+How to use RobotWars
 =============================================================================
 There are two ways to start RobotWars. 
 1. GUI
